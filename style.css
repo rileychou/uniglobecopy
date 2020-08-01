@@ -95,12 +95,13 @@ section {
     padding: 1em;
 }
 
-p {
-    font-size: 150%;
+section h1 {
+    margin: 0.25em 0;
 }
 
-#infofeature {
-    
+p {
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #home-image {
@@ -109,10 +110,37 @@ p {
     width: 46%;
 }
 
+@media (max-width: 500px) {
+    #home-image{
+        display: inline-block;
+        vertical-align: center;
+        width: 100%;
+    }
+}
+
 #home-text {
     display: inline-block;
     text-align: center;
     width: 46%;
+}
+
+@media (max-width: 600px) {
+    #home-text {
+        width: 100%;
+    }
+}
+
+#testimonials {
+    text-align: center;
+}
+
+.person {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    margin: 2em;
+    box-shadow: 5px 5px 8px #777777;
+    border-radius: 4px;
 }
 
 input[type = text], select {

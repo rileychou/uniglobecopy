@@ -8,6 +8,6 @@ For most people, school is just a place where they get educated and have friends
 
 ## Contributors
 * **Riley Chou** - frontend - [rileychou](https://github.com/rileychou)
-* **Yumeng He** - Rock, Paper, Scissors- [cathartic-ash](https://github.com/cathartic-ash)
-* **Aayush Gupta** - Chat, frontend [twippybhai](https://github.com/twippybhai)
+* **Yumeng He** - Rock, Paper, Scissors - [cathartic-ash](https://github.com/cathartic-ash)
+* **Aayush Gupta** - Chat, frontend - [twippybhai](https://github.com/twippybhai)
 * **Phoebe Tang** - Snake - [adironene](https://github.com/adironene)
