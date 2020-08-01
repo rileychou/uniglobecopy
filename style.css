@@ -98,6 +98,22 @@ p {
     font-size: 150%;
 }
 
+#infofeature {
+    
+}
+
+#home-image {
+    display: inline-block;
+    vertical-align: center;
+    width: 46%;
+}
+
+#home-text {
+    display: inline-block;
+    text-align: center;
+    width: 46%;
+}
+
 input[type = text], select {
     width: 90%;
     padding: 1%;
@@ -115,4 +131,8 @@ input[type = text], select {
     overflow-x: hidden;
     background-color: white;
     border: .2rem dashed black;
+}
+
+footer {
+    text-align: center;
 }
