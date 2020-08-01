@@ -45,11 +45,37 @@
                 newText: "",
                 username: "", 
             },
+            mounted() {
+                if (localStorage.getItem("texts")) {
+                    try {
+                        this.texts = JSON.parse(localStorage.getItem('texts'));
+                    }
+                    catch(e){
+                        localStorage.removeItem("texts");
+                    }
+
+                }
+
+                if (localStorage.username) {
+                    this.username = localStorage.username;
+                }
+
+            },
             methods: {
-                addText: function (event) {
-                    this.texts.push({id: this.username, text: this.newText })
-                    this.newText = ""
+                addText() {
+                    this.texts.push({ id: this.username, text: this.newText });
+                    this.newText = "";
+                    this.saveTexts();
                 },
+                saveTexts() {
+                    const parsed = JSON.stringify(this.texts);
+                    localStorage.setItem("texts", parsed)
+                },
+            },
+            watch: {
+                username(newUsername) {
+                    localStorage.username = newUsername;
+                }
             },
         })
     </script>
