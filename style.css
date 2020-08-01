@@ -175,3 +175,20 @@ footer {
 ul, li {
     font-size: 150%;
 }
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    background-color: #568b8f;
+    padding: 15px;
+}
+
+td {
+    width: 33.33%;
+    padding: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
