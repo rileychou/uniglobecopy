@@ -97,3 +97,22 @@ section {
 p {
     font-size: 150%;
 }
+
+input[type = text], select {
+    width: 90%;
+    padding: 1%;
+    font-size: 100%;
+    background-color: rgba(117, 162, 255, 0.85);
+    border-radius: 5px;
+    border: .2rem solid black;
+    position: fixed;
+    bottom: 2rem;
+}
+
+#chat {
+    height: 40rem;
+    overflow:scroll;
+    overflow-x: hidden;
+    background-color: white;
+    border: .2rem dashed black;
+}
