@@ -1,3 +1,49 @@
+@font-face {
+    font-family: "Alphabetized Cassette Tape"; src: url(fonts/alphabetized\ cassette\ tapes.ttf);
+}
+
+@font-face {
+    font-family: "Straight Jacket BB"; src: url('fonts/straightjacketbb_reg.ttf');
+}
+
+@font-face {
+    font-family: "Straight Jacket BB Bold"; src: url('fonts/straightjacketbb_bold.ttf');
+}
+
+@font-face {
+    font-family: "Ink Free Normal"; src: url('fonts/ink-free-normal.ttf')
+}
+
+h1 {
+    font-family: "Alphabetized Cassette Tape", sans-serif;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: "Alphabetized Cassette Tape", sans-serif;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: "Alphabetized Cassette Tape", sans-serif;
+
+}
+
+h4 {
+    font-family: "Alphabetized Cassette Tape", sans-serif;
+
+}
+
+h5 {
+    font-family: "Alphabetized Cassette Tape", sans-serif;
+
+}
+
+h6 {
+    font-family: "Alphabetized Cassette Tape", sans-serif;
+
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -6,7 +52,7 @@
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color: #beb5ff;
+    background-color:#9661ff;
 }
 
 .navbar li {
@@ -15,7 +61,7 @@
 
 .navbar li a {
     display: block;
-    color: #999999;
+    color: #ffffff;
     text-align: center;
     padding: 16px;
 }
@@ -30,4 +76,5 @@ header {
 
 body {
     padding-top: 40px;
+    margin: 0;
 }
