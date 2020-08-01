@@ -109,10 +109,16 @@ input[type = text], select {
     bottom: 2rem;
 }
 
+
+
 #chat {
     height: 40rem;
     overflow:scroll;
     overflow-x: hidden;
     background-color: white;
     border: .2rem dashed black;
+}
+
+ul, li {
+    font-size: 150%;
 }

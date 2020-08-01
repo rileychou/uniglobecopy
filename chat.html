@@ -5,24 +5,50 @@
     <meta name="viewport" content="width=device-width">
     <title>Chat</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vuex"></script>
 </head>
-  <body>
+<body>
     <div class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="info.html">Info</a></li>
-        <li><a href="games.html">Minigames</a></li>
-        <li><a href="chat.html">Chat</a></li>
-      </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="games.html">Minigames</a></li>
+            <li><a href="chat.html">Chat</a></li>
+        </ul>
     </div>
     <header>
         <h1>Chat</h1>
         <h2>You are not alone</h2>
     </header>
     <section id="chat">
-       <input type="text" placeholder="Message here..." />
+        <div id="app">
+            <input v-model="username" placeholder="Username" />
+        <ul>
+            <li v-for="text in texts">{{text.id}}: {{text.text}}</li>
+        </ul>
+            <input v-model="newText" v-on:keyup.enter="addText" id="text" type="text" placeholder="Message here..." />
+        </div>
     </section>
     <script src="script.js"></script>
-  </body>
+    <script>
+        var app = new Vue({
+            el: "#app",
+            data: {
+                texts: [
+                    { id: "", text: "Type your first message" },
+                ],
+
+                newText: "",
+                username: "", 
+            },
+            methods: {
+                addText: function (event) {
+                    this.texts.push({id: this.username, text: this.newText })
+                    this.newText = ""
+                },
+            },
+        })
+    </script>
+</body>
 </html>
