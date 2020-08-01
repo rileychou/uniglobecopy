@@ -1,0 +1,56 @@
+﻿@font-face{
+    font-family: MilkMustache;
+    src: url(MilkMustacheBB-Reg.ttf);
+}
+
+body {
+    background: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+}
+
+button {
+    font-family: MilkMustache;
+    font-size: 2em;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+table {
+    background-color:#578a70;
+    font-family: MilkMustache;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.flip{
+    transform: scaleX(-1);
+}
+
+h1{
+    font-size: 4em;
+}
+
+.sizing{
+    font-size: 2em;
+    line-height: 100%;
+}
