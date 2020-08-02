@@ -52,7 +52,7 @@ h6 {
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color:rgba(150, 97, 255, 0.85);
+    background-color:#5f9bad;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -69,7 +69,7 @@ h6 {
 }
 
 .navbar li a:hover {
-    background-color: #6f21db;
+    background-color: #001f8fb7;
 }
 
 header {
@@ -138,6 +138,8 @@ p {
     text-align: center;
     width: 40%;
     margin: 2em;
+    padding: 1.5em;
+    font-size: 0.7em;
     box-shadow: 5px 5px 8px #777777;
     border-radius: 4px;
 }
@@ -202,3 +204,5 @@ td p {
     padding-left: 2em;
     padding-right: 2em;
 }
+
+
