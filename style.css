@@ -202,7 +202,7 @@ input[type = text], select {
 }
 
 footer {
-    background-color: rgba(97, 110, 255, 0.85);
+    background-color: rgb(83,114,198);
     padding: 2em 0;
     width: 100%;
     text-align: center;
