@@ -77,6 +77,7 @@ header {
     background-color: rgba(97, 110, 255, 0.85);
     padding: 3em;
     margin: 0;
+    height: 100vh;
 }
 
 body {
@@ -204,5 +205,17 @@ td p {
     padding-left: 2em;
     padding-right: 2em;
 }
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.9,.9)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+
+.hidden {
+    opacity: 0;
+  }
 
 
