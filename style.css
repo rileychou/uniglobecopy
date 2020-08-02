@@ -254,3 +254,7 @@ td p {
 .hidden {
     opacity: 0;
 }
+
+.subheading{
+    font-size: 0.65em;
+}
