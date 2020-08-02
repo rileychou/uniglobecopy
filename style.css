@@ -100,6 +100,9 @@ header {
     padding: 3em;
     margin: 0;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -250,4 +253,8 @@ td p {
 
 .hidden {
     opacity: 0;
+}
+
+.subheading{
+    font-size: 0.65em;
 }
