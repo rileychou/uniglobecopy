@@ -97,9 +97,9 @@ h6 {
 header {
     text-align: center;
     background-color: rgb(83,114,198);
-    padding: 3em;
+    padding: 3rem;
     margin: 0;
-    height: 100vh;
+    height: auto;
 }
 
 body {
@@ -179,7 +179,9 @@ input[type = text], select {
     border-radius: 5px;
     border: .2rem solid black;
     position: fixed;
-    bottom: 3rem;
+    bottom: 6rem;
+    margin: auto;
+    float: left;
 }
 
 
@@ -190,6 +192,7 @@ input[type = text], select {
     overflow-x: hidden;
     background-color: white;
     border: .2rem dashed black;
+    padding: 1rem;
 }
 
 footer {
