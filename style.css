@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "Lato-Bold";
-    src: url('fonts/Lato-Bold.ttf')
+    src: url('fonts/Lato-Bold.ttf');
 }
 
 @font-face {
@@ -97,8 +97,9 @@ h6 {
 header {
     text-align: center;
     background-color: rgb(83,114,198);
-    padding: 3em;
+    padding: 3rem;
     margin: 0;
+    height: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -150,6 +151,8 @@ p {
     display: inline-block;
     text-align: center;
     width: 59%;
+    position: relative;
+    bottom: 3rem;
 }
 
 @media (max-width: 600px) {
@@ -182,7 +185,9 @@ input[type = text], select {
     border-radius: 5px;
     border: .2rem solid black;
     position: fixed;
-    bottom: 3rem;
+    bottom: 6rem;
+    margin: auto;
+    float: left;
 }
 
 
@@ -193,6 +198,7 @@ input[type = text], select {
     overflow-x: hidden;
     background-color: white;
     border: .2rem dashed black;
+    padding: 1rem;
 }
 
 footer {
