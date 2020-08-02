@@ -17,11 +17,15 @@
 h1 {
     font-family: "Alphabetized Cassette Tape", sans-serif;
     font-size: 5em;
+    font-weight: 500;
 }
 
 h2 {
     font-family: "Alphabetized Cassette Tape", sans-serif;
-    font-size: 3em;
+    font-size: 4em;
+    font-weight: 100;
+    line-height: 0px;
+    color: black;
 }
 
 h3 {
@@ -48,16 +52,17 @@ h6 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed; 
+    position: fixed;
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color:rgba(150, 97, 255, 0.85);
+    background-color: #28448f;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar li {
     float: left;
+    font-size: 1em;
 }
 
 .navbar li a {
@@ -65,16 +70,18 @@ h6 {
     color: #ffffff;
     text-align: center;
     padding: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     text-decoration: none;
 }
 
 .navbar li a:hover {
-    background-color: #6f21db;
+    background-color: #1a2d5e;
 }
 
 header {
     text-align: center;
-    background-color: rgba(97, 110, 255, 0.85);
+    background-color: rgb(83,114,198);
     padding: 3em;
     margin: 0;
 }
@@ -83,7 +90,7 @@ body {
     padding-top: 40px;
     margin: 0;
     padding: 0;
-    background-color:aliceblue;
+    background-color: #def0ff;
 }
 
 header h1 {
