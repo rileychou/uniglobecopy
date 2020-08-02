@@ -14,6 +14,21 @@
     font-family: "Ink Free Normal"; src: url('fonts/ink-free-normal.ttf')
 }
 
+@font-face {
+    font-family: "Lato-Bold";
+    src: url('fonts/Lato-Bold.ttf')
+}
+
+@font-face {
+    font-family: "Lato-Italic";
+    src: url('fonts/Lato-Italic.ttf')
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url('fonts/Lato-Regular.ttf')
+}
+
 h1 {
     font-family: "Alphabetized Cassette Tape", sans-serif;
     font-size: 5em;
@@ -99,15 +114,18 @@ header h1 {
 
 section {
     padding: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 section h1 {
-    margin: 0.25em 0;
+    margin: 0;
+    line-height: 0.3em;
 }
 
 p {
     font-size: 150%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato-Regular;
 }
 
 #home-image {
@@ -148,6 +166,7 @@ p {
     padding: 1.5em;
     font-size: 0.7em;
     box-shadow: 5px 5px 8px #777777;
+    background-color: ;
     border-radius: 4px;
 }
 
