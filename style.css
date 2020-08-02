@@ -97,9 +97,12 @@ h6 {
 header {
     text-align: center;
     background-color: rgb(83,114,198);
-    padding: 3rem;
+    padding: 3em;
     margin: 0;
-    height: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -179,9 +182,7 @@ input[type = text], select {
     border-radius: 5px;
     border: .2rem solid black;
     position: fixed;
-    bottom: 6rem;
-    margin: auto;
-    float: left;
+    bottom: 3rem;
 }
 
 
@@ -192,7 +193,6 @@ input[type = text], select {
     overflow-x: hidden;
     background-color: white;
     border: .2rem dashed black;
-    padding: 1rem;
 }
 
 footer {
@@ -253,4 +253,8 @@ td p {
 
 .hidden {
     opacity: 0;
+}
+
+.subheading{
+    font-size: 0.65em;
 }
