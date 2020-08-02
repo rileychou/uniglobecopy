@@ -138,6 +138,8 @@ p {
     text-align: center;
     width: 40%;
     margin: 2em;
+    padding: 1.5em;
+    font-size: 0.7em;
     box-shadow: 5px 5px 8px #777777;
     border-radius: 4px;
 }
@@ -202,3 +204,5 @@ td p {
     padding-left: 2em;
     padding-right: 2em;
 }
+
+
