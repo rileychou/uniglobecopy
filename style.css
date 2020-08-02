@@ -187,12 +187,19 @@ th {
 }
 
 td {
-    width: 33.33%;
     padding: 15px;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
 }
 
 td p {
     font-size: 1em;
 }
 
+.cell {
+    width: 30%;
+}
+
+.description-padding {
+    padding-left: 2em;
+    padding-right: 2em;
+}
