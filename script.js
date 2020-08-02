@@ -11,7 +11,6 @@ const animateHTML = function() {
       for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
         var positionFromTop = elements[i].getBoundingClientRect().top;
-        var positionFromBottom = elements[i].getBoundingClientRect().bottom;
   
         if (positionFromTop - windowHeight <= 0) {
             element.classList.add('fade-in-element');

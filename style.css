@@ -84,6 +84,9 @@ header {
     background-color: rgb(83,114,198);
     padding: 3em;
     margin: 0;
+}
+
+#homepage {
     height: 100vh;
 }
 
