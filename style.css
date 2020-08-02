@@ -64,7 +64,7 @@ h6 {
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 16px;
+    padding: 1em;
     text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ header {
     text-align: center;
     background-color: rgba(97, 110, 255, 0.85);
     padding: 3em;
-    margin: 0%;
+    margin: 0;
 }
 
 body {
@@ -91,7 +91,6 @@ header h1 {
 }
 
 section {
-    margin: 1em;
     padding: 1em;
 }
 
@@ -107,7 +106,7 @@ p {
 #home-image {
     display: inline-block;
     vertical-align: central;
-    width: 46%;
+    width: 40%;
 }
 
 @media (max-width: 500px) {
@@ -121,7 +120,7 @@ p {
 #home-text {
     display: inline-block;
     text-align: center;
-    width: 46%;
+    width: 59%;
 }
 
 @media (max-width: 600px) {
@@ -166,7 +165,7 @@ input[type = text], select {
 
 footer {
     background-color: rgba(97, 110, 255, 0.85);
-    padding: 2em;
+    padding: 2em 0;
     width: 100%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -174,4 +173,32 @@ footer {
 
 ul, li {
     font-size: 150%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    background-color: #568b8f;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 2px solid #dddddd;
+}
+
+td p {
+    font-size: 1em;
+}
+
+.cell {
+    width: 30%;
+}
+
+.description-padding {
+    padding-left: 2em;
+    padding-right: 2em;
 }
