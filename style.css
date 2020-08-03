@@ -177,7 +177,7 @@ p, table {
 }
 
 #container-to-fix-crap {
-    display: block;
+    display: flex;
     align-items: stretch;
 }
 
