@@ -4,13 +4,14 @@
 }
 
 body {
-    background: #ffffff;
+    background: #578a70;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: #578a70;
 }
 
 .buttons {
