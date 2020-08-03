@@ -163,6 +163,12 @@ p {
 
 #testimonials {
     text-align: center;
+    align-items: stretch;
+}
+
+#container-to-fix-crap {
+    display: flex;
+    align-items: stretch;
 }
 
 .person {
@@ -170,6 +176,7 @@ p {
     text-align: center;
     width: 40%;
     margin: 2em;
+    min-height: 100%;
     padding: 1.5em;
     font-size: 0.7em;
     box-shadow: 5px 5px 8px #777777;
