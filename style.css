@@ -151,7 +151,7 @@ p {
     display: inline-block;
     text-align: center;
     width: 59%;
-    bottom: 3rem;
+    bottom: 3em;
 }
 
 @media (max-width: 600px) {
