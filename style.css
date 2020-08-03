@@ -220,6 +220,9 @@ input[type = text], select {
     background-color: white;
     border: .2rem dashed black;
     padding: 1rem;
+    margin:1em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 footer {
