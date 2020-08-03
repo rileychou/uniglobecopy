@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/vuex"></script>
 </head>
-<body onload="animateHTML().init();">
+<body>
     <div class="navbar">
         <ul>
             <li><a href="index.html">home</a></li>
@@ -23,17 +23,18 @@
     <section id="chat">
         <div id="app">
             <input v-model="username" placeholder="Username" />
-        <ul>
-            <li v-for="text in texts">{{text.id}}: {{text.text}}</li>
-        </ul>
+            <ul>
+                <li v-for="text in texts">{{text.id}}: {{text.text}}</li>
+            </ul>
             <input v-model="newText" v-on:keyup.enter="addText" id="text" type="text" placeholder="Message here..." />
         </div>
     </section>
     <footer>
-      <small>2020 © made with &hearts; by remarque</small>
+        <small>2020 © made with &hearts; by remarque</small>
     </footer>
     <script src="script.js"></script>
     <script>
+
         var app = new Vue({
             el: "#app",
             data: {
@@ -42,14 +43,14 @@
                 ],
 
                 newText: "",
-                username: "", 
+                username: "",
             },
             mounted() {
                 if (localStorage.getItem("texts")) {
                     try {
                         this.texts = JSON.parse(localStorage.getItem('texts'));
                     }
-                    catch(e){
+                    catch (e) {
                         localStorage.removeItem("texts");
                     }
 
@@ -72,6 +73,9 @@
                 saveTexts() {
                     const parsed = JSON.stringify(this.texts);
                     localStorage.setItem("texts", parsed)
+                    ref.putString(parsed).then(function (snapshot) {
+                        console.log('Uploaded a raw string!');
+                    });
                 },
             },
             watch: {

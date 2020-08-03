@@ -105,6 +105,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 body {
@@ -152,13 +153,21 @@ p {
     display: inline-block;
     text-align: center;
     width: 59%;
-    bottom: 3rem;
+    bottom: 2.5rem;
 }
 
 @media (max-width: 800px) {
     #home-text {
-        width: 100%;
-        bottom: 1rem;
+        width: 59%;
+        margin-top: 5rem;
+        font-size: 50%;
+    }
+    #home-image{
+        margin-bottom: 4.5rem;
+        width: 40%;
+    }
+    .person {
+        font-size: 50%;
     }
 }
 
