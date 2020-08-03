@@ -248,7 +248,7 @@ td {
 }
 
 td p {
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 .cell {
@@ -256,8 +256,8 @@ td p {
 }
 
 .description-padding {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 
@@ -282,4 +282,21 @@ td p {
 
 .subheading{
     font-size: 0.65em;
+}
+
+#height-align {
+    height: 480px;
+    position: relative;
+}
+
+#height-align2 {
+    margin: 0;
+    position: relative;
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+}
+
+.home-margin {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
