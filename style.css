@@ -168,7 +168,7 @@ p {
 }
 
 #container-to-fix-crap {
-    display: flex;
+    display: block;
     align-items: stretch;
 }
 
@@ -181,7 +181,7 @@ p {
     padding: 1.5em;
     font-size: 0.7em;
     box-shadow: 5px 5px 8px #777777;
-    background-color: #def0ff;
+    background-color: aliceblue;
     border-radius: 4px;
 }
 
