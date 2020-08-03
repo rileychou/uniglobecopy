@@ -152,13 +152,13 @@ p {
     display: inline-block;
     text-align: center;
     width: 59%;
-    position: relative;
     bottom: 3rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #home-text {
         width: 100%;
+        bottom: 1rem;
     }
 }
 
@@ -288,12 +288,12 @@ td p {
 
 #height-align {
     height: 480px;
-    position: relative;
+    /*position: relative;*/
 }
 
 #height-align2 {
     margin: 0;
-    position: relative;
+    /*position: relative;*/
     -ms-transform: translateY(-60%);
     transform: translateY(-60%);
 }
