@@ -73,6 +73,7 @@ h6 {
     overflow: hidden;
     background-color: #28448f;
     font-family: Arial, Helvetica, sans-serif;
+    z-index:1;
 }
 
 .navbar li {
@@ -151,7 +152,8 @@ p {
     display: inline-block;
     text-align: center;
     width: 59%;
-    bottom: 3em;
+    position: relative;
+    bottom: 3rem;
 }
 
 @media (max-width: 600px) {
@@ -292,8 +294,8 @@ td p {
 #height-align2 {
     margin: 0;
     position: relative;
-    -ms-transform: translateY(-40%);
-    transform: translateY(-40%);
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
 }
 
 .home-margin {
