@@ -130,7 +130,7 @@ section h1 {
     line-height: 0.3em;
 }
 
-p {
+p, table {
     font-size: 150%;
     font-family: Lato-Regular;
 }
@@ -177,7 +177,7 @@ p {
 }
 
 #container-to-fix-crap {
-    display: flex;
+    display: block;
     align-items: stretch;
 }
 
@@ -190,7 +190,7 @@ p {
     padding: 1.5em;
     font-size: 0.7em;
     box-shadow: 5px 5px 8px #777777;
-    background-color: #def0ff;
+    background-color: aliceblue;
     border-radius: 4px;
 }
 
@@ -229,6 +229,9 @@ input[type = text], select {
     background-color: white;
     border: .2rem dashed black;
     padding: 1rem;
+    margin:1em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 footer {
@@ -259,7 +262,7 @@ td {
 }
 
 td p {
-    font-size: 1.25em;
+    font-size: 0.9em;
 }
 
 .cell {
